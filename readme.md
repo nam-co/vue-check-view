@@ -24,7 +24,7 @@ Vue.use(checkView)
 or (only for test)
 
 ```
-<script src="http://vtimofeev.github.io/vue-check-view/plugin.js">
+<script src="https://vtimofeev.github.io/vue-check-view/plugin.js">
 ```
 
 
@@ -52,7 +52,7 @@ Auto add classes to element and executeHandler
 ```
 
 ```
-funtion viewHandler (e) {
+function viewHandler (e) {
     console.log(e.type) // 'enter', 'exit', 'progress'
     console.log(e.percentInView) // 0..1 how much element overlap the viewport
     console.log(e.percentTop) // 0..1 position of element at viewport 0 - above , 1 - below
@@ -72,7 +72,7 @@ funtion viewHandler (e) {
 ```
 
 ```
-funtion onceHandler (e) {
+function onceHandler (e) {
     console.log(e.type) // 'enter', 'exit', 'progress'
     console.log(e.percentInView) // 0..1 how much element overlap the viewport
     console.log(e.percentTop) // 0..1 position of element at viewport 0 - above , 1 - below
